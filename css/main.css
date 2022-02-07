@@ -1,0 +1,228 @@
+@charset "utf-8";
+@import url('notosanskr/NotoSansKR.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+html {}
+
+body {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 1.6px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* 공통사항 */
+
+.clearfix::after {
+    content: '';
+    width: 100%;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 2;
+}
+
+.wrap {
+    position: relative;
+    display: block;
+    width: 100vw;
+}
+
+.wrap>div {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.brand-txt {
+    position: absolute;
+    left: 570px;
+    top: 0;
+    display: block;
+}
+
+/* gotop */
+.gotop {
+    position: fixed;
+    right: 80px;
+    bottom: 80px;
+    display: block;
+    width: 50px;
+    line-height: 50px;
+    box-shadow: 3px 3px 6px 1px rgba(12, 46, 116, 0.3);
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: background 0.3s;
+    transition: color 0.3s;
+    z-index: 999;
+}
+
+.gotop:hover {
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+/* header */
+.header {
+    height: 970px;
+    background: url('../images/header_bg.jpg') center;
+    background-size: cover;
+}
+
+/* overview */
+.overview {
+    height: 400px;
+    background: url('../images/overview_bg.png')center;
+    background-size: cover;
+    padding: 140px 0;
+}
+
+/* concept */
+.concept {
+    margin-top: 150px;
+}
+
+.v-concept {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* concept-story */
+.concept-story {
+    margin-top: 250px;
+}
+
+/* color */
+.color {
+    margin-top: 250px;
+}
+
+.color-cont {
+    margin-top: 120px;
+    text-align: center;
+}
+
+/* typo */
+.typo {
+    margin-top: 250px;
+}
+
+.typo-cont {
+    position: relative;
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.typo-cont img {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+/* design */
+.design {
+    margin-top: 150px;
+    background-color: #d4dbe7;
+    padding: 150px 0;
+}
+
+.part {
+    position: relative;
+    display: block;
+}
+
+.design-tit-c {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.design-txt-c{
+    position: absolute;
+    display: block;
+    left: 585px;
+}
+.design-txt-l {
+    position: absolute;
+    display: block;
+    left: 570px;
+}
+
+.design-txt-r {
+    position: absolute;
+    display: block;
+    right: 570px;
+}
+
+.design-txt-top {
+    top: 75px;
+}
+
+.design-cont {
+    position: relative;
+    display: block;
+    padding: 230px 0;
+    text-align: center;
+}
+
+.design-cont-other {
+    text-align: left;
+}
+.skill-cont{
+    padding-top: 170px;
+}
+.port-cont {
+    text-align: right;
+    padding-top: 250px;
+}
+/* footer */
+.footer {}
