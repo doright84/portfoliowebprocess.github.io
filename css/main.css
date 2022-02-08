@@ -151,7 +151,7 @@ body {
 .concept-expl>.container{
     text-align: center;
 }
-.box-txt{
+.center-txt{
     display: block;
     margin: 50px auto 0 auto;
 }
@@ -209,20 +209,15 @@ body {
     position: relative;
     display: block;
 }
-
-.design-tit-c {
-    position: absolute;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
+.part-wrap {
+    text-align: center;
 }
-
-.design-txt-c {
-    position: absolute;
+.part-cont{
+    position: relative;
     display: block;
-    left: 585px;
+    padding: 100px 0;
+    text-align: center;
 }
-
 .design-txt-l {
     position: absolute;
     display: block;
@@ -248,10 +243,6 @@ body {
 
 .design-cont-other {
     text-align: left;
-}
-
-.skill-cont {
-    padding-top: 170px;
 }
 
 .port-cont {
